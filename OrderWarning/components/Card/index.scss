@@ -1,0 +1,113 @@
+.orderInfo {
+  background: #fff;
+  margin-top: 15px;
+  color: #999;
+  padding: 15px 10px 3px;
+  font-size: 12px;
+  .black {color: #323232;}
+  .gray {color: #999;} 
+  .btn {
+    width: 75px;
+    color: #fff;
+    font-size: 14px;
+    background: #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+  }
+  .header {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6px;
+  }
+  .content {
+    .title {
+      font-size: 14px;
+      color: #323232;
+      padding-bottom: 6px;
+      font-weight: bold;
+    }
+    .tag:before {
+      content: '';
+      display: inline-block;
+      background: #fe473c;
+      vertical-align: middle;
+      margin-right: 5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      margin-top: -3px;
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #999;
+      .left {flex: 1; font-size: 12px; margin-right: 10px;}
+      .submit {
+        background: #0188ff;
+      }
+    }
+    .row {padding-bottom: 6px; display: flex; justify-content: flex-start; align-items: center;
+      .label {width: 65px;}
+      .value {flex: 1;}
+    }
+  }
+  .cellInfo {
+    margin-top: 15px;
+    .cell {
+      border-top: 1px solid #f2f2f2;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .txt {
+        white-space:nowrap;
+      }
+      .text {
+        flex: 1;
+        text-align: right;
+        margin-right: 10px;
+      }
+      .label {
+        color: #323232;
+      }
+    }
+  }
+  .light {color: #fea54c; font-size: 10px;}
+  .extendedRight {
+    width: 12px;
+    height: 12px;
+  }
+  .pding {
+    padding: 0 0 0 12px !important;
+    .am-list-item.am-list-item-middle .am-list-line {
+      padding-right: 0 !important;
+    }
+  }
+  input {
+    line-height: normal;
+    transform: translateZ(0);
+    text-align: right;
+    font-size: 12px !important;
+    width: 200px !important;
+    &::placeholder {
+      text-align: right;
+      color: #fea54c !important;
+      font-size: 10px;
+
+    }
+  }
+}
+
